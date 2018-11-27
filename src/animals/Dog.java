@@ -1,6 +1,6 @@
 package animals;
 
-public class Dog {
+public class Dog extends Pets {
     String name = "Jack";
     String bark = "Barking ...";
 

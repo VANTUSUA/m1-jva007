@@ -1,7 +1,11 @@
 package animals;
 
 public class Animals {
-    String roar = "R-r-r-r-r";
+    public String roar;
+
+    {
+        roar = "R-r-r-r-r";
+    }
     private String name;
     private double weight;
 
