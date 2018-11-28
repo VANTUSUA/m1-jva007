@@ -9,7 +9,7 @@ public class Animals {
         System.out.println("I`m sleeping=====>");
     }
 
-    public void voice (){
+    public void voice(String bark){
         System.out.println("My voice=======>");
     };
 
