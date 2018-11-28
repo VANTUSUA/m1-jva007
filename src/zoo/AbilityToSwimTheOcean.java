@@ -1,6 +1,8 @@
 package zoo;
 
 public interface AbilityToSwimTheOcean {
-    default void swimTheOcean() {
+    default String swimTheOcean() {
+        String swimming = "Swimming is good";
+        return swimming;
     }
 }

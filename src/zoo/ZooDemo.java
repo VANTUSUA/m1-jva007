@@ -15,5 +15,13 @@ public class ZooDemo {
         h.eat();
         System.out.println("Hippo is eating");
 
+        Whale w = new Whale();
+        System.out.println("=====>New Whale has arrived");
+        System.out.println(w.swimTheOcean());
+
+        Lion simba = new Lion();
+        System.out.println("======>New Lion has arrived");
+        simba.voice();
+        
     }
 }
