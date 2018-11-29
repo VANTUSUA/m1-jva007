@@ -1,11 +1,19 @@
 package dbank;
 
+import post.Client;
+
+import java.util.List;
+
 public class Accounts {
+    public String[] clientAccounts;
     int id;
     double balance;
-    void deposit(){
+
+    void deposit() {
         return;
-    };
+    }
+
+    ;
 
 
     public int getId() {
@@ -23,7 +31,6 @@ public class Accounts {
     public void setBalance(double balance) {
         this.balance = balance;
     }
-
 
 
 }

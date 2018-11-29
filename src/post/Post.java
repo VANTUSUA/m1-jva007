@@ -10,8 +10,4 @@ public class Post {
         System.out.println("You have new message(s)");
     }
 
-    void statistics(){
-
-        System.out.println();
-    }
 }
