@@ -8,7 +8,8 @@ public class BankApp {
         c.setName("Misha");
         System.out.println("New Client has arrived =>" +c.name);
         System.out.println("New account should be created");
-        Accounts clAccounts = new Accounts();
+
+        System.out.println( );;
 
 
     }

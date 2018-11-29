@@ -1,11 +1,7 @@
 package dbank;
 
-import post.Client;
-
-import java.util.List;
-
 public class Accounts {
-    public String[] clientAccounts;
+    public double[] clientAccounts = new double[10];
     int id;
     double balance;
 
@@ -15,6 +11,14 @@ public class Accounts {
 
     ;
 
+
+    public double[] getClientAccounts() {
+        return clientAccounts;
+    }
+
+    public void setClientAccounts(double[] clientAccounts) {
+        this.clientAccounts = clientAccounts;
+    }
 
     public int getId() {
         return id;
